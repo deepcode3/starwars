@@ -1,28 +1,18 @@
-.nav{
-  width: 500px;
-  height: 500px;
-  margin: auto;
-}
-.nav_1{
-  display:flex;
-  position:fixed;
+.nav_1 {
+  display: flex;
+  position: fixed;
   height: 100px;
   width: 200px;
-  top: 50px;
+  top: 45px;
   left: 41%;
   align-items: auto;
 }
-.l1{
-  border: 0.5px solid #1B6BA2;
+.l1 {
+  border: 0.1px solid;
+  color: #1b6ba2;
   position: fixed;
-  top: 22%;
-  left:25%;
+  top: 21%;
+  left: 25%;
   width: 700px;
-  align-items:auto; 
-  
+  align-items: auto;
 }
-      
-
-
-
-

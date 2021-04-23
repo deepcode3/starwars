@@ -1,64 +1,56 @@
-.footer{
-    display: flex;
-      position: fixed;
-      max-width: 100pv;
-      align-items: center;
-      top: 540px;
-      left: 100px;
-      font-size: 18pv;
-      font-size: calc(10px + 2vmin);
+.l2 {
+  border: 0.0001px solid;
+  color: #1b6ba2;
+  position: fixed;
+  top: 80%;
+  left: 0%;
+  width: 200%;
+  align-items: auto;
 }
-.footer_1{
-       height: 10pv;
-        width: 10pv;
-        display: flex;
-        flex-direction: column;
-        align-items: row;
-        justify-content: center;
-        top: 650px;
-      left: 100px;
-     }
-.B{
-    text-align: center;
-        word-spacing: 5px;
-        grid-row: auto;
-        list-style-type: none;
-        align-items: center;
-      top: 500px;
-       left: 150px;
-      font-style:oblique;
-      font-size: 14px;
-      color:white;
-      margin-bottom: 100px;
-       }
-        ul#horizontal-list {
-          min-width: 696px;
-          list-style: none;
-          padding-top: 20px;
-          }
-          ul#horizontal-list li {
-            display: inline;
-          }
-       
-       .foot1{
-        text-align: center;
-        word-spacing: 1px;
-        grid-row: auto;
-        list-style-type: none;
-        align-items: center;
-      top: 550px;
-      left: 200px;
-      font-style:oblique;
-      font-size: 14px;
-      color:#1b6BA2;
-margin-left:20px ;
+.footer {
+  display: flex;
+  position: fixed;
+  top: 540px;
+  left: 100px;
+  font-size: 18pv;
+  font-size: calc(10px + 2vmin);
+}
+.footer_1 {
+  height: 10pv;
+  width: 10pv;
+  display: flex;
+  flex-direction: column;
+  align-items: row;
+  justify-content: center;
+  top: 650px;
+  left: 100px;
+}
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+ul#horizontal-list li {
+  display: inline;
+}
 
-      }
-    
-      .foot2{
-        text-emphasis: none;
-        color: white;
-        top: 550px;
-        left: 200px;
-        }
-      
+.foot1 {
+  text-align: center;
+  word-spacing: 1px;
+  grid-row: auto;
+  list-style-type: none;
+  align-items: center;
+  top: 550px;
+  font-style: oblique;
+  font-size: 14px;
+  color: #1b6ba2;
+  margin-left: 20px;
+}
+
+.foot2 {
+  text-emphasis: none;
+  color: white;
+  text-decoration: solid white;
+  top: 600px;
+  left: 10px;
+}

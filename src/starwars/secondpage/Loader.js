@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-const Loading = () => {
+const Load = () => {
     return (
         <>
-            {console.log("wait!!!!")}
+            {console.log("Loading")}
         </>
     )
 }
 
-export default Loading
+export default Load

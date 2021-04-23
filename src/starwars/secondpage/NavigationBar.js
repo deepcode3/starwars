@@ -1,17 +1,13 @@
 import React from 'react'
-import localData from '../homePage/image'
+import Image from '../homePage/image'
 import "./card.css"
 import {NavLink} from 'react-router-dom'
-
-
-
 const NavigationBar = () => {
-  
-    return (
+  return (
         <>
-            <nav className="nav">
+        <nav className="nav">
                 {
-                       localData.map((Title,idx)=>{
+                       Image.map((Title,idx)=>{
                         return(
                       <ul key={idx} >
                           <NavLink style={{color:"red"}} to= {`/${Title.title}`}>
@@ -22,7 +18,6 @@ const NavigationBar = () => {
                 }
             </nav>
             <hr className="line3"/>
-
         </>)
         }
 export default NavigationBar

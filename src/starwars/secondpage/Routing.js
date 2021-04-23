@@ -3,12 +3,12 @@ import "./card.css"
 
 
 function Routing(props){
-    const {data}=props
+    const {Image}=props
     return(
         <>
         <div className="card">
            {
-               data.map((val,indx)=>{
+               Image.map((val,indx)=>{
                    return(
                 <ul key={indx} className="card-data">
                     <li className="card-list">{val.title || val.name}</li>

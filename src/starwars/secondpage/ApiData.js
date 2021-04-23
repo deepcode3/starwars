@@ -1,6 +1,6 @@
 import React,{useState,useEffect,createContext} from 'react'
 import axios from 'axios';
-import Loader from './Loader';
+import Load from './Loader';
 import Routing from './Routing';
 import Button from '@material-ui/core/Button';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';

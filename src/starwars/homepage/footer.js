@@ -4,9 +4,10 @@ import logo from './StarWarDesign/Art Assets/footer_logo.png'
 
 function Footer(){
     return(
-        <body>
            <div className="footer">
+                <hr className='l2'></hr>
                <img src={logo} alt="f" className="footer_1" />
+              <div>
                <ul id="horizontal-list" >
                     <li className="foot1">Terms of Use </li>
                     <li className="foot1">Legal Notices </li>
@@ -16,10 +17,9 @@ function Footer(){
                 </ul>
                 </div>
                 <div>
-                     <spam className="foot2">TM & c LucasFilm Ltd.All Rights Reserved</spam>
+                <p className="foot1">TM & c LucasFilm Ltd.All Rights Reserved</p>
                 </div>
-            
-        </body>
+                </div>
         )
         } 
 export default Footer

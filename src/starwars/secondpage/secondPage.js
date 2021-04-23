@@ -1,8 +1,7 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
-import ApiData from './ApiData'
+//import ApiData from './ApiData'
 import NavigationBar from './NavigationBar'
-
 
 function SecondPage()  {
     const {id}=useParams();
@@ -10,7 +9,7 @@ function SecondPage()  {
     return (
         <div className="second-page">
             <NavigationBar/>
-            <ApiData id={id}/>
+            {/*<ApiData id={id}/>*/}
         </div>
     )
 }
